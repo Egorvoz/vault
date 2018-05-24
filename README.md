@@ -1,2 +1,2 @@
-# valut
+# vault
 My personal vault :banana:
