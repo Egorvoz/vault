@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
 
-const URL = 'http://192.168.13.245:1984';
+const URL = 'ENTER IP/URL/ETC.';
 
 // TODO:
 // 1. in html folder run `http-server -p 1984`

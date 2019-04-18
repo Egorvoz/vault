@@ -5,6 +5,11 @@ const URL = 'https://github.com/';
 
 // NOTE: u can't add script tag init :) yet
 const buildTemplate = (type) => {
+  // If you do not need customize =>
+  // https://github.com/GoogleChrome/puppeteer/blob/v1.14.0/docs/api.md#pagepdfoptions
+
+  // Since version 1.2+ you can use footerTemplate & headerTemplate API
+
   return `
     <div style="font-size: 10px; color: red;">
       <span>${ type === 'header' ? 'HEADER' : 'FOOTER'}</span>

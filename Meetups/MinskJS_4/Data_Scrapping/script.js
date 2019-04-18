@@ -15,7 +15,7 @@ async function getAllBookTitles(page, count, delay) {
     }
 
     const booksTitles = bookListEl.querySelectorAll(
-      '.p-book-description-wrapper > p'
+      '.lego-book__description-wrapper > p'
     )
 
     if (booksTitles) {
